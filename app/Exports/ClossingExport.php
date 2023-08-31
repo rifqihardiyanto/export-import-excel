@@ -12,7 +12,7 @@ class ClossingExport implements FromView
     public function view(): View
     {
         return view('dataclossings', [
-            'row' => Clossing::all()
+            'Clossing' => Clossing::all()
         ]);
     }
 }
